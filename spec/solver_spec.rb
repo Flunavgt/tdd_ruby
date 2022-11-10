@@ -13,3 +13,10 @@ describe 'reverseString "this" to equal "siht"' do
     expect(back_string('this')).to eql('siht')
   end
 end
+
+
+describe 'Testing the Fizz Buzz method'do
+  it 'should return fizz ' do
+    expect(15).to eql('buzz')
+  end
+end
